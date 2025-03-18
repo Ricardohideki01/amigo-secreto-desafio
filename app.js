@@ -47,7 +47,7 @@ function sortearAmigo() {
 
     // Atualiza o conteúdo da área de resultado
     let resultado = document.getElementById("resultado");
-    resultado.innerHTML = `<li>${amigoSorteado} foi sorteado!</li>`;
+    resultado.innerHTML = `<li>O amigo secreto sorteado é: ${amigoSorteado}</li>`;
 }
 
 
